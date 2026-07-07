@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+venv/
+env/
+.venv/
+instance/
+*.egg-info/
+dist/
+build/
+migrations/versions/__pycache__/
+
+# IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
