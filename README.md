@@ -2,18 +2,7 @@
 
 A full-stack inventory and order management system for managing products, customers, and orders with real-time inventory tracking, automatic stock validation, and a modern admin dashboard.
 
----
 
-## 🔗 Live URLs
-
-| Service | URL |
-|---------|-----|
-| 🌐 Frontend (Vercel) | `https://your-app.vercel.app` |
-| ⚙️ Backend API (Render) | `https://your-api.onrender.com` |
-
-> Update the above after deployment.
-
----
 
 ## 🔑 Default Admin Credentials
 
