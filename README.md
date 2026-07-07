@@ -1,6 +1,6 @@
 # 📦 InventoryPro — Inventory & Order Management System
 
-A full-stack business management portal for managing products, customers, and orders with real-time inventory tracking, automatic stock validation, and a modern dark-themed admin dashboard.
+A full-stack inventory and order management system for managing products, customers, and orders with real-time inventory tracking, automatic stock validation, and a modern admin dashboard.
 
 ---
 
@@ -247,7 +247,7 @@ Authorization: Bearer <JWT_TOKEN>
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | POST | `/api/auth/register` | Register admin user |
-| POST | `/api/auth/login` | Login → returns JWT |
+| POST | `/api/auth/login` | Login (returns a JWT) |
 | GET | `/api/auth/me` | Current user info |
 | POST | `/api/auth/logout` | Logout |
 
@@ -316,10 +316,10 @@ Authorization: Bearer <JWT_TOKEN>
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET | `/api/orders?status=pending&search=ORD` | List orders |
-| POST | `/api/orders` | Create order (validates + deducts stock) |
+| POST | `/api/orders` | Create order (validates inventory and deducts stock) |
 | GET | `/api/orders/:id` | Get order with items |
 | PUT | `/api/orders/:id/status` | Update order status |
-| DELETE | `/api/orders/:id` | Cancel order + restore stock |
+| DELETE | `/api/orders/:id` | Cancel order and restore stock |
 
 **Create order request:**
 ```json
@@ -443,7 +443,7 @@ Running `python seed.py` creates:
 
 ---
 
-## 📸 Portal Pages
+## 📸 Application Pages
 
 | Page | What You Can Do |
 |------|----------------|
@@ -457,7 +457,5 @@ Running `python seed.py` creates:
 
 ## 📄 License
 
-Varyn Chauhan
+Varun Chauhan
 vc28022004@gmail.com
-#   e t h a r a - a i - i n v e n t o r y - a s s e s s m e n t  
- 
